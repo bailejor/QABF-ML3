@@ -16,7 +16,7 @@ from sklearn.metrics import accuracy_score
 ################################################################################################################
 #Best feature combination was 4-8 (92%)
 
-dataframe = pandas.read_csv("FullTest.csv", header = 0)
+dataframe = pandas.read_csv("FullTest1.csv", header = 0)
 dataset = dataframe.values
 # split into input (X) and output (Y) variables
 X_orig = dataset[:,4:8].astype(float)
